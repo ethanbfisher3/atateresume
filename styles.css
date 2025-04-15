@@ -1,0 +1,110 @@
+#body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #a7a7a7;
+}
+
+:root {
+  --header-height: 150px;
+  --header-color: rgb(211, 211, 211);
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#video-embed {
+  width: 600px;
+  height: 380px;
+}
+
+#video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+#resume-title {
+  margin-top: 0px;
+}
+
+#header-title {
+  margin-top: 20px;
+  font-size: 5em;
+}
+
+#lacrosse-title {
+  font-size: 3m;
+  font-family: "Courier New", Courier, monospace;
+  color: darkgoldenrod;
+}
+
+#header-triangle {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: var(--header-height);
+  left: 0px;
+  z-index: -1;
+  border-bottom: 200px solid rgba(0, 0, 0, 0);
+  border-right: calc(100vw - 15px) solid var(--header-color);
+}
+
+#resume-container {
+  max-width: 85%;
+  margin: 40px auto;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  background-color: rgb(245, 245, 245);
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #2196f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.vl {
+  width: 0px;
+  border: 1px solid black;
+  border-style: none solid none none;
+}
+
+#resume-parent {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 20px;
+}
+
+.resume-child {
+  max-width: 50%;
+}
+
+#content-container {
+  padding: 100px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#info-container {
+  padding-top: 50px;
+  font-size: 24px;
+}
